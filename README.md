@@ -88,7 +88,7 @@ class TailCallFunctional : Factorial {
 
 ![](http://i.imgur.com/AzKv99T.png)
 
-## Recursive
+## Iterative
 ```kotlin
 class Iterative : Factorial {
     init {
