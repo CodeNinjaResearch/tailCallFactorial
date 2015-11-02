@@ -110,7 +110,6 @@ class Iterative : Factorial {
 References:
 * The Original 'Lambda Papers' by Guy Steele and Gerald Sussman, http://library.readscheme.org/page1.html
 * Steven S.Munchnick (2000). Advanced Compiler Design implementation, Procedure Optimizations, 15, 461 – 470.
-* Suceción de Fibonacci, https://es.wikipedia.org/wiki/Sucesión_de_Fibonacci
 * John Hudson Tiner (200). Exploring the World of Mathematics: From Ancient Record Keeping to the Latest Advances in Computers. New Leaf Publishing Group. ISBN 9781614581550.
 * Tail Recursive, https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/tail-recursive/
 * Tail Recursion Elimination, http://www.program-transformation.org/Transform/TailRecursionElimination
