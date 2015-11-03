@@ -17,11 +17,11 @@ class TailCallFunctional : Factorial {
      *  (tailrec-fact 0 2)
      *  2
      */
-    override tailrec fun method(n: Long) : Long {
-        fun _functional(n : Long, res: Long) :Long {
-            return if(n <= 0) res
-            else _functional(n -1, n * res)
-        }
+    override fun method(n: Long) : Long {
+        tailrec fun _functional(n : Long, res: Long) :Long {
+                return if(n <= 0) res
+                else _functional(n -1, n * res)
+            }
         return _functional(n,1)
     }
 }
