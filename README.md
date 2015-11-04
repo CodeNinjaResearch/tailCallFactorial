@@ -4,7 +4,14 @@
  [![Build Status](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial.svg?branch=master)](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial) [![Kotlin](https://img.shields.io/badge/Kotlin-1.0.0--beta--1038-blue.svg?plastic)](http://kotlinlang.org) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/) [![Analytics](https://ga-beacon.appspot.com/UA-68658653-7
 /tailCallFibonacci/readme)](https://github.com/igrigorik/ga-beacon)
 
+##[Video](https://youtu.be/XPxvFv3fjl8)
+
+##Time
 ![](http://i.imgur.com/H9YCv4d.png)
+
+##Value
+![](http://i.imgur.com/kN1Nlx0.png)
+![](http://i.imgur.com/k7L74BC.png)
 
 ## Api
 ```kotlin
