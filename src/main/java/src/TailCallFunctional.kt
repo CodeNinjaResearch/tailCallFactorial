@@ -19,9 +19,9 @@ class TailCallFunctional : Factorial {
      */
     override fun method(n: Long) : Long {
         tailrec fun _functional(n : Long, res: Long) :Long {
-            return if(n <= 0) res
-            else _functional(n -1, n * res)
-        }
+                return if(n <= 0) res
+                else _functional(n -1, n * res)
+            }
         return _functional(n,1)
     }
 }
