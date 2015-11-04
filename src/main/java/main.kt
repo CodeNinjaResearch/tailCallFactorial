@@ -1,6 +1,7 @@
-
 import api.Factorial
 import org.jfree.chart.JFreeChart
+import src.Functional
+import src.Iterative
 import src.Recursive
 import src.TailCallFunctional
 import src.util.PlotK
@@ -21,7 +22,7 @@ fun main(args: Array<String>) {
 
 private fun <T>execute(factorial: T, sequence: Long): Long where T: Factorial = factorial.method(sequence)
 
-private fun listFactorial() = listOf(Recursive(),TailCallFunctional())
+private fun listFactorial() = listOf(Recursive(),TailCallFunctional(), Functional(), Iterative())
 
 private fun execute<T>(listFactorial: List<T>, rangeSequence: Int, plot : PlotK) where T: Factorial {
 
