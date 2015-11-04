@@ -13,6 +13,11 @@
 ![](http://i.imgur.com/kN1Nlx0.png)
 ![](http://i.imgur.com/k7L74BC.png)
 
+##Configure
+```kotlin
+private fun listFactorial() = listOf(Recursive(),TailCallFunctional(), Functional(), Iterative())
+```
+
 ## Api
 ```kotlin
 interface Factorial {
