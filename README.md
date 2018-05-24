@@ -1,19 +1,18 @@
 # [Tail Call Optimization / Kotlin  -  Factorial ](http://kotlin.es/2015/11/tail-call-optimization/)
 
-##Build
- [![Build Status](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial.svg?branch=master)](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial) [![Kotlin](https://img.shields.io/badge/Kotlin-1.0.0--beta--1038-blue.svg?plastic)](http://kotlinlang.org) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/) [![Analytics](https://ga-beacon.appspot.com/UA-68658653-7
-/tailcallfibonacci/readme)](https://github.com/igrigorik/ga-beacon)
+## Build
+ [![Build Status](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial.svg?branch=master)](https://travis-ci.org/CodeNinjaResearch/tailCallFactorial) [![Kotlin](https://img.shields.io/badge/Kotlin-1.0.0--beta--1038-blue.svg?plastic)](http://kotlinlang.org) [![Maven Central](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.eluder.coveralls/coveralls-maven-plugin/)
+ 
+## [Video](https://youtu.be/XPxvFv3fjl8)
 
-##[Video](https://youtu.be/XPxvFv3fjl8)
-
-##Time
+## Time
 ![](http://i.imgur.com/H9YCv4d.png)
 
-##Value
+## Value
 ![](http://i.imgur.com/kN1Nlx0.png)
 ![](http://i.imgur.com/k7L74BC.png)
 
-##Configure
+## Configure
 ```kotlin
 private fun listFactorial() = listOf(Recursive(),TailCallFunctional(), Functional(), Iterative())
 ```
@@ -54,7 +53,7 @@ class Recursive : Factorial {
 ![](http://i.imgur.com/2xvLINw.png)
 
 
-##Funtional
+## Funtional
 ```kotlin
 class Functional : Factorial {
     init {
@@ -74,7 +73,7 @@ class Functional : Factorial {
 ![](http://i.imgur.com/p4nBgYk.png)
 
 
-##Tail Call Functional
+## Tail Call Functional
 ```kotlin
 class TailCallFunctional : Factorial {                        
     init {                                                    
